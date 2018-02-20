@@ -2,6 +2,12 @@
   "name": "surfboard",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "connected-react-router": "^4.3.0",
@@ -24,10 +30,8 @@
     "styled-components": "^3.1.6",
     "yup": "^0.24.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "redux-devtools": "^3.4.1",
+    "redux-devtools-extension": "^2.13.2"
   }
 }
