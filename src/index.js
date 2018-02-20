@@ -15,6 +15,7 @@ import { store, history } from './store'
 
 import './assets/styles/normalize.css'
 import './assets/styles/fonts.css'
+import './assets/styles/base.css'
 
 const Root = () => (
   <Provider store={store}>
