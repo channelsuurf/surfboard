@@ -75,13 +75,13 @@ const Archive = () => (
     <Container>
       <Header>Archive</Header>
       <MailchimpArchive />
-      <Footer>
-        <Link to='/'>Home</Link>
-        <Link to='/submissions'>Submissions</Link>
-        <Link to='/feedback'>Feedback</Link>
-        <a href='//twitter.com/channelsuurf'>Twitter</a>
-      </Footer>
     </Container>
+    <Footer>
+      <Link to='/'>Home</Link>
+      <Link to='/submissions'>Submissions</Link>
+      <Link to='/feedback'>Feedback</Link>
+      <a href='//twitter.com/channelsuurf'>Twitter</a>
+    </Footer>
   </Background>
 )
 
