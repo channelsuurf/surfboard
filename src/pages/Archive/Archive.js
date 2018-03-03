@@ -19,6 +19,15 @@ const ArchiveContainer = styled.div`
     margin: 15px;
   }
 
+  /* Intentionally push the footer down so that on page load,
+     the footer isn't in the middle of the page while content
+     loads and then pushed to the bottom */
+  /* TODO: Aim to remove the Mailchimp auto-archive code,
+     manually add issues, and better design the page */
+  #mailchimp-archive {
+    min-height: 100vh;
+  }
+
   @media screen and (max-width: 576px) {
     .campaign a {
       display: block;
@@ -51,6 +60,7 @@ class MailchimpArchive extends Component {
 const Container = styled.div`
   align-items: center;
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
 `
