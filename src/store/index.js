@@ -1,5 +1,5 @@
 import { applyMiddleware, combineReducers, createStore } from 'redux'
-import { composeWithDevTools } from 'redux-devtools-extension'
+import { composeWithDevTools } from 'redux-devtools-extension/logOnlyInProduction'
 import createHistory from 'history/createBrowserHistory'
 import { connectRouter, routerMiddleware } from 'connected-react-router'
 
