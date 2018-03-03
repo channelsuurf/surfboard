@@ -43,7 +43,7 @@ const Meta = (props) => (
     {/* A brief description of the content, usually between 2 and 4 sentences. This will displayed below the title of the post on Facebook. */}
     <meta property='og:description' content={props.description} />
     {/* Only show Google Analytics in Production */}
-    <script>{process.NODE_ENV === 'production' ? ga : ''}</script>
+    <script>{process.env.NODE_ENV === 'production' ? ga : ''}</script>
     { props.children }
   </Helmet>
 )
