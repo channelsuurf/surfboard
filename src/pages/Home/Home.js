@@ -134,7 +134,9 @@ const Home = (props) => (
     </LeftSection>
     <RightSection>
       <ContentContainer>
-        <Content>Are your YouTube recommendations failing you?<br/>Are your subscriptions getting stale?<br/>Subscribe for a newsletter of past and present online videos deserving your attention delivered to your inbox every Friday.</Content>
+        <Content>
+          YouTube recommendations failing you?<br/>Subscriptions getting stale?<br/>Discover your next favorite creator from our hand-picked recommendations sent to your inbox every Friday.
+        </Content>
       </ContentContainer>
       <Mailchimp />
     </RightSection>
