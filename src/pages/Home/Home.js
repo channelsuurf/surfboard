@@ -135,7 +135,7 @@ const Home = (props) => (
     <RightSection>
       <ContentContainer>
         <Content>
-          YouTube recommendations failing you?<br/>Subscriptions getting stale?<br/>Discover your next favorite creator from our hand-picked recommendations sent to your inbox every other Saturday.
+          YouTube recommendations failing you?<br/>Subscriptions getting stale?<br/>Discover your next favorite creator from our hand-picked recommendations sent to your inbox every other Saturday. Currently on hiatus. 🙈
         </Content>
       </ContentContainer>
       <Mailchimp />
