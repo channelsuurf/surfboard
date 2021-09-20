@@ -1,3 +1,5 @@
 [build.environment]
   NODE_VERSION = "14"
   NODE_ENV     = "production"
+  # https://answers.netlify.com/t/build-fails-with-focal-image-due-to-unwanted-old-ruby/40682/14
+  RUBY_VERSION = "2.7.4"
